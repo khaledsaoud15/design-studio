@@ -15,6 +15,9 @@ const Container = styled.div`
 const Grid = styled.h1`
   font-size: 20px;
   font-weight: 400;
+  @media (max-width: 480px) {
+    font-size: 15px;
+  }
 `;
 const Icons = styled.div`
   display: flex;

@@ -13,6 +13,9 @@ const Container = styled.div`
 `;
 const Header = styled.div`
   margin-left: 50px;
+  @media (max-width: 820px) {
+    margin-left: 10px;
+  }
 `;
 const Title = styled.h1`
   font-size: 40px;
@@ -76,6 +79,10 @@ const Img = styled.img`
   }
   :nth-of-type(5) {
     grid-row: 2;
+  }
+  @media (max-width: 480px) {
+    width: 90%;
+    margin: 0 auto;
   }
 `;
 const BigContainer = styled.div`
